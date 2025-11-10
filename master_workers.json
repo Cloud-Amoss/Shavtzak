@@ -1,0 +1,179 @@
+{
+  "last_updated": "2025-11-09",
+  "workers": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "rank": 4,
+      "positions": ["manager", "supervisor"],
+      "days_off": ["2025-11-15", "2025-11-16"],
+      "cumulative_stats": {
+        "total_hours": 156.5,
+        "total_jobs": 42,
+        "jobs_by_position": {
+          "manager": 8,
+          "supervisor": 34
+        }
+      },
+      "daily_history": [
+        {
+          "date": "2025-11-01",
+          "jobs_worked": 2,
+          "total_hours": 8.0,
+          "assignments": [
+            {
+              "job_id": "J1",
+              "job_name": "Morning Shift",
+              "start_time": "08:00",
+              "end_time": "12:00",
+              "position": "supervisor"
+            },
+            {
+              "job_id": "J2",
+              "job_name": "Afternoon Shift",
+              "start_time": "13:00",
+              "end_time": "17:00",
+              "position": "supervisor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Johnson",
+      "rank": 3,
+      "positions": ["supervisor", "operator"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 120.0,
+        "total_jobs": 30,
+        "jobs_by_position": {
+          "supervisor": 15,
+          "operator": 15
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 3,
+      "name": "Carol White",
+      "rank": 2,
+      "positions": ["operator"],
+      "days_off": ["2025-11-10"],
+      "cumulative_stats": {
+        "total_hours": 95.5,
+        "total_jobs": 25,
+        "jobs_by_position": {
+          "operator": 25
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 4,
+      "name": "David Brown",
+      "rank": 2,
+      "positions": ["operator"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 88.0,
+        "total_jobs": 22,
+        "jobs_by_position": {
+          "operator": 22
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 5,
+      "name": "Emma Davis",
+      "rank": 2,
+      "positions": ["inspector"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 92.0,
+        "total_jobs": 23,
+        "jobs_by_position": {
+          "inspector": 23
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 6,
+      "name": "Frank Miller",
+      "rank": 2,
+      "positions": ["inspector"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 76.0,
+        "total_jobs": 19,
+        "jobs_by_position": {
+          "inspector": 19
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 7,
+      "name": "Grace Wilson",
+      "rank": 1,
+      "positions": ["operator"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 64.0,
+        "total_jobs": 16,
+        "jobs_by_position": {
+          "operator": 16
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 8,
+      "name": "Henry Moore",
+      "rank": 1,
+      "positions": ["operator"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 52.0,
+        "total_jobs": 13,
+        "jobs_by_position": {
+          "operator": 13
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 9,
+      "name": "Ivy Taylor",
+      "rank": 1,
+      "positions": ["assistant"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 40.0,
+        "total_jobs": 10,
+        "jobs_by_position": {
+          "assistant": 10
+        }
+      },
+      "daily_history": []
+    },
+    {
+      "id": 10,
+      "name": "Jack Anderson",
+      "rank": 1,
+      "positions": ["assistant"],
+      "days_off": [],
+      "cumulative_stats": {
+        "total_hours": 32.0,
+        "total_jobs": 8,
+        "jobs_by_position": {
+          "assistant": 8
+        }
+      },
+      "daily_history": []
+    }
+  ]
+}

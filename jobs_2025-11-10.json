@@ -1,0 +1,87 @@
+{
+  "date": "2025-11-10",
+  "jobs": [
+    {
+      "id": "J1",
+      "name": "Morning Production Line A",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "required_positions": {
+        "supervisor": 1,
+        "operator": 3
+      },
+      "priority": 1
+    },
+    {
+      "id": "J2",
+      "name": "Morning Production Line B",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "required_positions": {
+        "operator": 2
+      },
+      "priority": 2
+    },
+    {
+      "id": "J3",
+      "name": "Quality Control Morning",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "required_positions": {
+        "inspector": 2
+      },
+      "priority": 1
+    },
+    {
+      "id": "J4",
+      "name": "Afternoon Production Line A",
+      "start_time": "13:00",
+      "end_time": "17:00",
+      "required_positions": {
+        "supervisor": 1,
+        "operator": 3
+      },
+      "priority": 1
+    },
+    {
+      "id": "J5",
+      "name": "Afternoon Production Line B",
+      "start_time": "13:00",
+      "end_time": "17:00",
+      "required_positions": {
+        "operator": 2
+      },
+      "priority": 2
+    },
+    {
+      "id": "J6",
+      "name": "Quality Control Afternoon",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "required_positions": {
+        "inspector": 2
+      },
+      "priority": 1
+    },
+    {
+      "id": "J7",
+      "name": "Maintenance Check",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "required_positions": {
+        "operator": 1
+      },
+      "priority": 3
+    },
+    {
+      "id": "J8",
+      "name": "Evening Cleanup",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "required_positions": {
+        "assistant": 2
+      },
+      "priority": 3
+    }
+  ]
+}

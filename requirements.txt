@@ -1,0 +1,6 @@
+# Staff Scheduling Optimization System Requirements
+
+# Core optimizer
+ortools>=9.8.0
+
+# Python 3.10+ is required for modern type hints and features

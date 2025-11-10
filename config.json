@@ -1,0 +1,15 @@
+{
+  "max_jobs_per_person_per_day": 2,
+  "min_rest_between_jobs_minutes": 0,
+  "target_hours_per_person_per_day": 8.0,
+  "position_hierarchy": {
+    "manager": ["manager", "supervisor", "operator", "assistant"],
+    "supervisor": ["supervisor", "operator", "assistant"],
+    "operator": ["operator", "assistant"],
+    "inspector": ["inspector"],
+    "specialist": ["specialist"],
+    "assistant": ["assistant"]
+  },
+  "workload_balance_weight": 0.3,
+  "allow_partial_staffing": true
+}
